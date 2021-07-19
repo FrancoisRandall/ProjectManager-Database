@@ -16,10 +16,10 @@ public class DatabasePoised {
 		try {
 			
 			// Connect to the ebookstore database, via the jdbc:mysql: channel on localhost (this PC)
-			// Use username "otheruser", password "swordfish".
+			// Fill in your own localhost number, username and password below
 									
 			Connection connection = DriverManager.getConnection(
-				"jdbc:mysql://localhost:3306/poisepms?useSSL=false", "otheruser","swordfish"
+				"jdbc:mysql://localhost:1234/poisepms?useSSL=false", "username","password"
 				);
 									
 			// Create a direct line to the database for running our queries
