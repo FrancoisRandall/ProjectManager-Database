@@ -21,7 +21,7 @@ Download MySQL
 Create your database
 Create your tables:
 
-- Customer, Contractor, Architect (replace user with these titles accordingly for each table): 
+Customer, Contractor, Architect (replace user with these titles accordingly for each table): 
 - projectNumber, int, NOT NULL, UNIQUE
 - projectName, varchar(255)
 - userName, varchar(255)
@@ -30,7 +30,7 @@ Create your tables:
 - userEmail, varchar(255)
 - userAddress, varchar(255)
 
-- Project:
+Project:
 - projectNumber, int, NOT NULL, UNIQUE
 - projectName, varchar(255)
 - buildingType, varchar(255)
